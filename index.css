@@ -148,6 +148,7 @@ input::placeholder {
   font-weight: 700;
   color: var(--color-Green-400);
   text-align: right;
+  align-items: center;
 }
 .result-title {
   font-size: 1rem;
@@ -206,10 +207,18 @@ input::placeholder {
     gap: 1rem;
   }
 
+  .result {
+    align-items: center;
+  }
+
   .result-section {
     bottom: rem;
   }
   .result-section {
     gap: 4rem;
+  }
+
+  .result p {
+    font-size: clamp(1rem, 5vw + 0.5rem, 3rem);
   }
 }
